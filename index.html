@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Daily Attendance System</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>Daily Attendance</h1>
+
+<p id="todayDate"></p>
+
+<div class="card">
+
+<h2>Status</h2>
+
+<p id="status">Not Checked In</p>
+
+</div>
+
+<div class="card">
+
+<h2>Login Time</h2>
+
+<p id="loginTime">--:--:--</p>
+
+</div>
+
+<div class="card">
+
+<h2>Logout Time</h2>
+
+<p id="logoutTime">--:--:--</p>
+
+</div>
+
+<div class="card">
+
+<h2>Working Time</h2>
+
+<p id="workingTime">00:00:00</p>
+
+</div>
+
+<div class="card">
+
+<h2>Today's Salary</h2>
+
+<p id="todaySalary">₹0.00</p>
+
+</div>
+
+<div class="buttons">
+
+<button id="checkIn">Check In</button>
+
+<button id="checkOut">Check Out</button>
+
+<button id="totalBtn">Total</button>
+
+<button id="resetBtn">Reset</button>
+
+</div>
+
+<div class="summary">
+
+<h2>Total Report</h2>
+
+<p>Total Hours :
+<span id="totalHours">00:00:00</span></p>
+
+<p>Total Salary :
+₹<span id="totalSalary">0.00</span></p>
+
+</div>
+
+<h2>Attendance History</h2>
+
+<table>
+
+<thead>
+
+<tr>
+
+<th>Date</th>
+
+<th>In</th>
+
+<th>Out</th>
+
+<th>Hours</th>
+
+<th>Salary</th>
+
+</tr>
+
+</thead>
+
+<tbody id="historyBody">
+
+</tbody>
+
+</table>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
